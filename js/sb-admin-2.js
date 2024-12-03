@@ -44,6 +44,11 @@
     }
   });
 
+  $(document).on('scroll', function() {
+      $('.plus-btn').fadeIn();
+    }
+  );
+
   // Smooth scrolling using jQuery easing
   $(document).on('click', 'a.scroll-to-top', function(e) {
     var $anchor = $(this);

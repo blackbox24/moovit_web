@@ -9045,6 +9045,31 @@ a:focus {
   background: rgba(90, 92, 105, 0.5);
   line-height: 46px;
 }
+
+.plus-btn {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  display: none;
+  width: 2.75rem;
+  height: 2.75rem;
+  text-align: center;
+  color: #fff;
+  background: lightcoral;
+  line-height: 46px;
+}
+
+.plus-btn:focus,
+.plus-btn:hover {
+  color: #fff;
+}
+.plus-btn:hover {
+  background: #5a5c69;
+}
+.plus-btn i {
+  font-weight: 800;
+}
+
 .scroll-to-top:focus,
 .scroll-to-top:hover {
   color: #fff;
