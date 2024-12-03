@@ -9049,7 +9049,7 @@ a:focus {
 .plus-btn {
   position: fixed;
   right: 1rem;
-  bottom: 1rem;
+  bottom: 5rem;
   display: none;
   width: 2.75rem;
   height: 2.75rem;
@@ -9059,12 +9059,18 @@ a:focus {
   line-height: 46px;
 }
 
+.filter-form > select{
+  /* font-size: 105%; */
+  padding: 5%;
+  border: 1px solid grey;
+  border-radius: 5%;
+}
 .plus-btn:focus,
 .plus-btn:hover {
   color: #fff;
 }
 .plus-btn:hover {
-  background: #5a5c69;
+  background:red;
 }
 .plus-btn i {
   font-weight: 800;
